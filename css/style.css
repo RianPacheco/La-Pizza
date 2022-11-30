@@ -1,0 +1,301 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  user-select: none;
+}
+
+body {
+  height: 230vh;
+}
+
+header {
+  background: url(../assets/img/bg-pizza.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  height: 550px;
+  justify-content: center;
+  align-items: center;
+}
+
+header p {
+  font-family: "Sora";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 80px;
+  line-height: 121px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.span-yellow {
+  color: #ffa200;
+}
+
+.span-red {
+  color: #cf3031;
+}
+
+.span-green {
+  color: #5c913b;
+}
+
+.planta {
+  position: absolute;
+  left: -10px;
+  top: 470px;
+}
+
+.peixe {
+  position: absolute;
+  top: 620px;
+  left: 500px;
+}
+
+.cogumelo {
+  position: absolute;
+  left: 1500px;
+  top: 600px;
+}
+
+.plantinha {
+  position: absolute;
+  left: 1480px;
+  top: 900px;
+  z-index: -1;
+}
+
+.pimenta {
+  position: absolute;
+  top: 1240px;
+  left: 50px;
+}
+
+.tomate {
+  position: absolute;
+  left: 1600px;
+  top: 1500px;
+}
+
+.bg-coracao,
+.bg-coracao-2,
+.bg-coracao-3,
+.bg-coracao-4 {
+  position: absolute;
+  width: 35px;
+  top: 810px;
+  height: 35px;
+  background: #ffd4c9;
+  border: 2px solid #cf3031;
+  border-radius: 14px;
+  cursor: pointer;
+}
+
+.bg-coracao {
+  left: 590px;
+}
+
+.bg-coracao-2 {
+  left: 880px;
+}
+
+.bg-coracao-3 {
+  left: 1160px;
+}
+
+.bg-coracao-4 {
+  left: 1454px;
+}
+
+.bg-coracao img,
+.bg-coracao-2 img,
+.bg-coracao-3 img,
+.bg-coracao-4 img {
+  padding: 8px;
+}
+
+.eclipse {
+  position: absolute;
+  width: 147.45px;
+  height: 147.45px;
+  left: 350.12px;
+  top: 1530px;
+  background: linear-gradient(180deg, #ffffff 0%, #ffffff 100%);
+  box-shadow: 0px 3.04px 3.04px rgba(159, 62, 62, 0.25);
+  border-radius: 50%;
+}
+
+.eclipse-2 {
+  position: absolute;
+  width: 157.45px;
+  height: 157.45px;
+  left: 1450.12px;
+  top: 1870px;
+  background: linear-gradient(180deg, #ffffff 0%, #ffffff 100%);
+  box-shadow: 0px 3.04px 3.04px rgba(159, 62, 62, 0.25);
+  border-radius: 50%;
+}
+
+.pizza-restaurant {
+  position: absolute;
+  left: 1460.12px;
+  top: 1870px;
+  transform: rotate(10.84deg);
+  width: 148.17px;
+  height: 148.17px;
+}
+
+.titulo-card {
+  padding-top: 143px;
+  font-family: "Sora";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 45px;
+  text-align: center;
+  color: #2e2e2e;
+}
+
+.card {
+  padding-top: 88px;
+  padding-left: 32px;
+}
+
+.lacuma {
+  position: absolute;
+  top: 760px;
+  left: 458px;
+}
+
+.lamenta {
+  position: absolute;
+  top: 760px;
+  left: 746px;
+}
+
+.labana {
+  position: absolute;
+  top: 760px;
+  left: 1030px;
+}
+
+.latoca {
+  position: absolute;
+  top: 760px;
+  left: 1320px;
+}
+
+.bg {
+  background: #fef6f4;
+  border-radius: 25px;
+  width: 256px;
+  height: 275px;
+}
+
+.titulo-bg {
+  font-family: "Sora";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: center;
+  color: #2e2e2e;
+  padding-top: 76px;
+}
+
+.paragrafo-card {
+  font-family: "Sora";
+  font-style: normal;
+  font-weight: 300;
+  width: 180px;
+  margin: 0 auto;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: #616161;
+  padding-top: 8px;
+}
+
+.price {
+  font-family: "Sora";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 40px;
+  text-align: center;
+  color: #2e2e2e;
+  padding-top: 28px;
+}
+
+button {
+  background: #ffa200;
+  border-radius: 25px;
+  width: 157px;
+  height: 31px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border: 1px solid transparent;
+  font-family: "Sora";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  color: #2e2e2e;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sobre {
+  padding-top: 358px;
+  gap: 96px;
+}
+
+.titulo-sobre {
+  font-family: "Sora";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 45px;
+  color: #2e2e2e;
+}
+
+.paragrafo-sobre {
+  width: 458px;
+  height: 182px;
+  font-family: "Sora";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #2e2e2e;
+}
+
+.btn-ler {
+  width: 148px;
+  height: 39px;
+  margin-left: 50px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 200px;
+  background: #ffffff;
+  font-family: "Sora";
+  font-style: normal;
+  font-size: 20px;
+  line-height: 18px;
+  color: #2e2e2e;
+}
