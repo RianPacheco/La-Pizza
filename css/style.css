@@ -299,3 +299,128 @@ footer {
   line-height: 18px;
   color: #2e2e2e;
 }
+
+@media (max-width: 1180px) {
+  header {
+    background: url(../assets/img/bg-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: 420px;
+    height: 230px;
+  }
+
+  header p {
+    font-family: "Sora";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 60px;
+    text-align: center;
+    color: #ffffff;
+  }
+
+  section {
+    flex-direction: column;
+  }
+
+  .card {
+    padding-top: 91px;
+    padding-left: 14px;
+  }
+
+  .sobre img {
+    display: none;
+  }
+
+  .sobre {
+    width: 420px;
+    height: 327px;
+    background: #fcfcfc;
+    text-align: center;
+  }
+
+  .titulo-sobre {
+    font-family: "Sora";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 28px;
+    color: #2e2e2e;
+  }
+
+  .paragrafo-sobre {
+    font-family: "Sora";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 140%;
+    color: #2e2e2e;
+    width: 312px;
+    height: 160px;
+  }
+
+  .btn-ler {
+    margin: 10px 80px;
+  }
+
+  .peixe,
+  .planta,
+  .cogumelo,
+  .plantinha,
+  .pimenta,
+  .tomate,
+  .eclipse,
+  .eclipse-2,
+  .pizza-restaurant {
+    display: none;
+  }
+
+  .lacuma,
+  .lamenta,
+  .labana,
+  .latoca {
+    left: 155px;
+  }
+
+  .lacuma {
+    top: 453px;
+  }
+
+  .lamenta {
+    top: 853px;
+  }
+
+  .labana {
+    top: 1253px;
+  }
+
+  .latoca {
+    top: 1643px;
+  }
+
+  .bg-coracao,
+  .bg-coracao-2,
+  .bg-coracao-3,
+  .bg-coracao-4 {
+    left: 285px;
+  }
+
+  .bg-coracao {
+    top: 490px;
+  }
+
+  .bg-coracao-2 {
+    top: 884px;
+  }
+
+  .bg-coracao-3 {
+    top: 1290px;
+  }
+
+  .bg-coracao-4 {
+    top: 1684px;
+  }
+
+  footer {
+    font-size: 18px;
+  }
+}
